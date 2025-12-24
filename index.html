@@ -1,203 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>WGA & CTAG 2026 | Kannur University</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --primary: #0b3c5d;
-      --secondary: #1d6fa5;
-      --accent: #f0b429;
-      --bg: #f9f7f2;
-      --text: #222;
+    body { margin:0; font-family:Inter,sans-serif; background:#f9f7f2; }
+    header { background:#0b3c5d; color:white; padding:3rem 1rem; text-align:center; }
+    h1,h2 { font-family:'Playfair Display',serif; }
+    nav { background:white; padding:0.7rem; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,.1); }
+    nav a { margin:0 12px; text-decoration:none; color:#0b3c5d; font-weight:500; }
+    section { max-width:1000px; margin:auto; padding:2.5rem 1rem; }
+    .btn {
+      display:inline-block;
+      background:#f0b429;
+      color:#000;
+      padding:12px 22px;
+      border-radius:8px;
+      font-weight:600;
+      text-decoration:none;
+      margin-top:1rem;
     }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      color: var(--text);
-      background: var(--bg);
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
-      color: white;
-      padding: 4rem 1.5rem;
-      text-align: center;
-    }
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.4rem;
-      margin-bottom: 0.5rem;
-    }
-    header h2 {
-      font-weight: 400;
-      font-size: 1.3rem;
-      margin: 0.5rem 0;
-    }
-    header p {
-      margin-top: 1rem;
-      font-size: 1.1rem;
-    }
-    nav {
-      background: white;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-    }
-    nav ul {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      list-style: none;
-      margin: 0;
-      padding: 0.5rem 0;
-    }
-    nav li { margin: 0 1rem; }
-    nav a {
-      text-decoration: none;
-      color: var(--primary);
-      font-weight: 500;
-    }
-    section {
-      max-width: 1100px;
-      margin: auto;
-      padding: 3rem 1.5rem;
-    }
-    section h2 {
-      font-family: 'Playfair Display', serif;
-      color: var(--primary);
-      margin-bottom: 1rem;
-      font-size: 2rem;
-    }
-    .card {
-      background: white;
-      padding: 1.8rem;
-      border-radius: 14px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-      margin-bottom: 2rem;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-    .speaker {
-      background: #fff;
-      padding: 1.2rem;
-      border-radius: 12px;
-      box-shadow: 0 6px 14px rgba(0,0,0,0.07);
-    }
-    .speaker h4 {
-      margin: 0.5rem 0 0.2rem;
-      color: var(--secondary);
-    }
-    .dates ul, .committee ul {
-      padding-left: 1.2rem;
-    }
-    footer {
-      background: var(--primary);
-      color: white;
-      text-align: center;
-      padding: 2rem 1.5rem;
-    }
-    footer a { color: var(--accent); text-decoration: none; }
+    footer { background:#0b3c5d; color:white; text-align:center; padding:1.5rem; }
   </style>
 </head>
+
 <body>
 
 <header>
   <h1>WGA & CTAG 2026</h1>
-  <h2>Pre-Conference Workshop on Graph Algorithms &<br/>Conference on Theory and Algorithms on Graphs</h2>
-  <p>February 2–6, 2026 · Kannur University, Mangattuparamba Campus</p>
-  <p><strong>Funded by PM–USHA Scheme</strong></p>
+  <h2>Workshop on Graph Algorithms & Conference on Theory and Algorithms on Graphs</h2>
+  <p>February 2–6, 2026 · Kannur University</p>
+
+  <!-- 🔗 PASTE REGISTRATION LINK BELOW -->
+  <a href="PASTE_GOOGLE_FORM_LINK_HERE" class="btn">Register Now</a>
 </header>
 
 <nav>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#workshop">Workshop</a></li>
-    <li><a href="#conference">Conference</a></li>
-    <li><a href="#speakers">Speakers</a></li>
-    <li><a href="#dates">Important Dates</a></li>
-    <li><a href="#registration">Registration</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+  <a href="index.html">Home</a>
+  <a href="workshop.html">Workshop</a>
+  <a href="seminar.html">Conference</a>
+  <a href="schedule.html">Schedule</a>
 </nav>
 
-<section id="about">
-  <h2>About the Department</h2>
-  <div class="card">
-    <p>The Department of Mathematical Sciences at Kannur University, Mangattuparamba Campus, was established in 2008 and is a recognised research centre of Kannur University. The department offers MSc Mathematics and PhD programmes, and has introduced a five-year Integrated MSc programme in 2025.</p>
-    <p>The major areas of research include graph theory, harmonic analysis, operator algebra, and fuzzy mathematics. The department also hosts an NBHM-funded library supporting advanced teaching and research.</p>
-  </div>
-</section>
-
-<section id="workshop">
-  <h2>About the Workshop</h2>
-  <div class="card">
-    <p>The two-day pre-conference workshop on Graph Algorithms aims to equip research scholars, postgraduate students, and young faculty members with a strong foundation in graph-theoretic concepts and algorithmic techniques.</p>
-    <p>The workshop serves as a bridge between introductory material and advanced research discussions, enabling participants to meaningfully engage with the subsequent conference sessions.</p>
-  </div>
-</section>
-
-<section id="conference">
-  <h2>About the Conference</h2>
-  <div class="card">
-    <p>The conference brings together researchers and academicians to discuss recent developments in graph theory and graph algorithms, including spectral graph theory, graph colouring, network optimisation, graph neural networks, and parameterised and approximation algorithms.</p>
-    <p>This is one of the first conferences on this theme in Kerala in recent years and provides a platform for young researchers to present their work.</p>
-  </div>
-</section>
-
-<section id="speakers">
-  <h2>Invited Speakers</h2>
-  <div class="grid">
-    <div class="speaker"><h4>Wilfried Imrich</h4><p>Montanuniversität Leoben, Austria</p></div>
-    <div class="speaker"><h4>N. Narayanan</h4><p>IIT Madras</p></div>
-    <div class="speaker"><h4>Manoj Changat</h4><p>University of Kerala</p></div>
-    <div class="speaker"><h4>Rogers Mathew</h4><p>IIT Hyderabad</p></div>
-    <div class="speaker"><h4>Mathew C. Francis</h4><p>IIT Palakkad</p></div>
-    <div class="speaker"><h4>Deepak Rajendraprasad</h4><p>IIT Palakkad</p></div>
-    <div class="speaker"><h4>Ambat Vijayakumar</h4><p>CUSAT</p></div>
-    <div class="speaker"><h4>Aparna Lakshmanan S</h4><p>CUSAT</p></div>
-    <div class="speaker"><h4>Kishori P. Narayankar</h4><p>Mangalore University</p></div>
-  </div>
-</section>
-
-<section id="dates" class="dates">
-  <h2>Important Dates</h2>
-  <div class="card">
-    <ul>
-      <li>Submission Deadline: <strong>January 15, 2026</strong></li>
-      <li>Acceptance Notification: <strong>January 25, 2026</strong></li>
-      <li>Workshop: <strong>February 2–4, 2026</strong></li>
-      <li>Conference: <strong>February 5–6, 2026</strong></li>
-    </ul>
-  </div>
-</section>
-
-<section id="registration">
-  <h2>Registration</h2>
-  <div class="card">
-    <p>Participants from institutions other than Kannur University are required to pay a registration fee of <strong>₹750</strong>.</p>
-    <p>Registration will be on a <strong>first-come, first-served basis</strong> with a maximum of 50 participants.</p>
-  </div>
-</section>
-
-<section id="contact">
-  <h2>Contact</h2>
-  <div class="card">
-    <p><strong>Email:</strong> seminarkucmaths@gmail.com</p>
-    <p><strong>Mobile:</strong> 9446477054, 8137092284, 9188029020</p>
-  </div>
+<section>
+  <h2>About the Programme</h2>
+  <p>
+    The Department of Mathematical Sciences, Kannur University, is organizing a
+    Pre-Conference Workshop on Graph Algorithms followed by the Conference on
+    Theory and Algorithms on Graphs (WGA & CTAG 2026).
+  </p>
 </section>
 
 <footer>
-  <p>© 2026 Department of Mathematical Sciences, Kannur University</p>
-  <p>This is a preliminary website. Schedule and details will be updated.</p>
+  © 2026 Department of Mathematical Sciences, Kannur University
 </footer>
 
 </body>
